@@ -1,4 +1,25 @@
-button {
+.well-button {
     width: 50px;
     height: 50px;
+}
+.inial-well-indicated {
+    background-color: yellow;
+}
+.final-well-indicated {
+    background-color: green;
+}
+.popup {
+    display: none;
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    left: 50%;
+}
+.popup.show {
+    display: block;
+}
+input {
+    margin: 10px;
 }
